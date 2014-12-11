@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -23,7 +23,8 @@
 
     <!-- Custom styles for this template -->
     <link href="stylesheet.css" rel="stylesheet">
-    <link href="gallery.css" rel="stylesheet">
+   <link href="gallery.css" rel="stylesheet">
+    
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -48,9 +49,9 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="search.html">Search</a></li>
+                    <li><a href="browse.html">Browse</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li class="divider"></li>
                     <li class="dropdown-header"><a href="resources.html">RESOURCES</a></li>
@@ -58,10 +59,16 @@
                     <li><a href="books.html">Books</a></li>
                     <li><a href="terms.html">Elements of Photography</a></li>
                     <li><a href="website.html">Photography Websites</a></li>
-                    <li><a href="organizations">Photography Organizations</a></li>
+                    <li><a href="organizations.html">Photography Organizations</a></li>
                   </ul>
                 </li>
               </ul>
+              <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                 </div>
+                  <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
             </div>
           </div>
         </nav>
@@ -69,80 +76,275 @@
       </div>
     </div>
 
+<!--BEGIN GALLERY-->
 
-    
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+<div class="container">    
 
+   
 <div class="container">
 <h2 class="featurette-heading">Gallery</h2>
 </div>
 
-<div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-md-3">
-              <div class="img">
-             <div class="thumbnail">
-            <img src="images/works/batteyimage1.jpg" alt="image" width="100" height="100">
-            <div class="caption">"Booker T. and W.E.B--A. Washington</div>
-            <p><a href="images/works/batteyimage1.jpg" class="btn btn-default" role="button">Enlarge</a></p>
-            </div>
-           </div> 
-      
-            <div class="img">
-                <div class="thumbnail">
-                <img src="images/works/johnbrown-washington1.jpg" alt="image" width="110" height="90">
-                <div class="caption">Add a description of the image here</div>
-            <p><a href="images/works/johnbrown-washington1.jpg" class="btn btn-default" role="button">Enlarge</a></p>
-            </div>
-            </div>
+      <body class="no-touch">
 
-            <div class="img">
-            <div class="thumbnail">
-             <img src="images/works/josephjenkins-washington2.jpg" alt="image" width="110" height="90">
-            <div class="caption">Add a description of the image here</div>
-            <p><a href="images/works/josephjenkins-washington2.jpg" class="btn btn-default" role="button">Enlarge</a></p>
-            </div>
-            </div>
+  <div class="wrap">
+    
+    <!-- Define all of the tiles: -->
 
-           <div class="img">
-            <div class="thumbnail">
-            <img src="images/works/chancybrown-washington4.jpg" alt="image" width="110" height="90">
-             <div class="caption">Add a description of the image here</div>
-              <p><a href="images/works/chancybrown-washington4.jpg" class="btn btn-default" role="button">Enlarge</a></p>
-            </div>
-           </div>
-
-            <div class="img">
-            <div class="thumbnail">
-             <img src="images/works/urias-a-mcgill-washington3.jpg" alt="image" width="110" height="90">
-            <div class="caption">Add a description of the image here</div>
-            <p><a href="images/works/urias-a-mcgill-washington3.jpg" class="btn btn-default" role="button">Enlarge</a></p>
-            </div>
-            </div>
-
+    <!--C. Battey Images-->
+    <div class="box">
+      <div class="boxInner">
+        <a href="images/works/batteyimage1.jpg" class="thumbnail" title="Booker T. and W.E.B" data-gallery>
+            <img src="images/works/batteyimage1.jpg" alt="image">
+            </a>
+        <div class="titleBox">Cornelius Battey</div>
       </div>
     </div>
 
+    <!--A. Washington Images-->
+    <div class="box">
+      <div class="boxInner">
+        <a href="images/works/johnbrown-washington1.jpg" class="thumbnail" title="John Brown" data-gallery>
+                <img src="images/works/johnbrown-washington1.jpg" alt="image">
+                </a>
+        <div class="titleBox">Augustus Washington</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="boxInner">
+        <a href="images/works/josephjenkins-washington2.jpg" class="thumbnail" title="Joseph Jenkins" data-gallery>
+             <img src="images/works/josephjenkins-washington2.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Augustus Washington</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="boxInner">
+        <a href="images/works/chancybrown-washington4.jpg" class="thumbnail" title="Chancy Brown" data-gallery>
+            <img src="images/works/chancybrown-washington4.jpg" alt="image" width="110" height="90">
+          </a>
+        <div class="titleBox">Augustus Washington</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="boxInner">
+        <a href="images/works/urias-a-mcgill-washington3.jpg" class="thumbnail" title="Urias McGill" data-gallery>
+             <img src="images/works/urias-a-mcgill-washington3.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Augustus Washington</div>
+      </div>
+    </div>
 
+    <!--G.Parks Images-->
+    <div class="box">
+      <div class="boxInner">
+        <a href="images/works/parks1.jpg" class="thumbnail" title="Ella Watson's Grandchildren, 1942" data-gallery>
+                <img src="images/works/parks1.jpg" alt="image" width="110" height="90">
+                </a>
+        <div class="titleBox">Gordon Parks</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="boxInner">
+        <a href="images/works/parks2.jpg" class="thumbnail" title="The invisible man, Harlem, 1942" data-gallery>
+             <img src="images/works/parks2.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Gordon Parks</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="boxInner">
+        <a href="images/works/parks3.jpg" class="thumbnail" title="American Gothic, 1942" data-gallery>
+             <img src="images/works/parks3.jpg" alt="image">
+            </a>
+        <div class="titleBox">Gordon Parks</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/parks4.jpg" class="thumbnail" title="Ethel Shariff in Chicago, 1963" data-gallery>
+             <img src="images/works/parks4.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Gordon Parks</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="boxInner">
+       <a href="images/works/parks5.jpg" class="thumbnail" title="Malcolm X Addressing Black Muslim Familiy in Chicago, 1963" data-gallery>
+             <img src="images/works/parks5.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Gordon Parks</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="boxInner">
+      <a href="images/works/parks6.jpg" class="thumbnail" title="Flavio da Sliva, 1961" data-gallery>
+             <img src="images/works/parks6.jpg" alt="image" width="110" height="90"> </a>  
+        <div class="titleBox">Gordon Parks</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="boxInner">
+        <a href="images/works/parks7.jpg" class="thumbnail" title="Muhammad Ali, 1970" data-gallery>
+             <img src="images/works/parks7.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Gordon Parks</div>
+      </div>
+    </div>
+    
+<div class="box">
+      <div class="boxInner">
+         <a href="images/works/parks8.jpg" class="thumbnail" title="Resistance" data-gallery>
+             <img src="images/works/parks8.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Gordon Parks</div>
+      </div>
+    </div>
 
+<!--J. Van Der Zee Images-->
+<div class="box">
+      <div class="boxInner">
+         <a href="images/works/vanderzee1.jpg" class="thumbnail" title="Couple in Raccoon Coats, 1932" data-gallery>
+             <img src="images/works/vanderzee1.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">James Van Der Zee</div>
+      </div>
+    </div>
 
+ <div class="box">
+      <div class="boxInner">
+         <a href="images/works/vanderzee2.jpg" class="thumbnail" title="Marcus Garvey" data-gallery>
+             <img src="images/works/vanderzee2.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">James Van Der Zee</div>
+      </div>
+    </div>
+    
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/vanderzee3.jpg" class="thumbnail" title="Girl, Nude from Waist Up, 1932" data-gallery>
+             <img src="images/works/vanderzee3.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">James Van Der Zee</div>
+      </div>
+    </div>
 
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/vanderzee4.jpg" class="thumbnail" title="Jean-Michel Basquiat" data-gallery>
+             <img src="images/works/vanderzee4.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">James Van Der Zee</div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/vanderzee5.jpg" class="thumbnail" title="Twins" data-gallery>
+             <img src="images/works/vanderzee5.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">James Van Der Zee</div>
+      </div>
+    </div>
+
+<!--C. Weems-->
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/cweems1.jpg" class="thumbnail" title="Boneyard" data-gallery>
+             <img src="images/works/cweems1.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Carrie Mae Weems</div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/cweems2.jpg" class="thumbnail" title="Boone-Plantation" data-gallery>
+             <img src="images/works/cweems2.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Carrie Mae Weems</div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/cweems3.jpg" class="thumbnail" title="House" data-gallery>
+             <img src="images/works/cweems3.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Carrie Mae Weems</div>
+      </div>
+    </div>   
+
+<div class="box">
+      <div class="boxInner">
+         <a href="images/works/cweems4.jpg" class="thumbnail" title="Kitchen-table 7" data-gallery>
+             <img src="images/works/cweems4.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Carrie Mae Weems</div>
+      </div>
+    </div>   
+
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/cweems5.jpg" class="thumbnail" title="Kitchen-table 9" data-gallery>
+             <img src="images/works/cweems5.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Carrie Mae Weems</div>
+      </div>
+    </div> 
+
+<div class="box">
+      <div class="boxInner">
+         <a href="images/works/cweems8.jpg" class="thumbnail" title="Makeup" data-gallery>
+             <img src="images/works/cweems8.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Carrie Mae Weems</div>
+      </div>
+
+    </div>      
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/cweems6.jpg" class="thumbnail" title="La. 2" data-gallery>
+             <img src="images/works/cweems6.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Carrie Mae Weems</div>
+      </div>
+    </div>   
+
+    <div class="box">
+      <div class="boxInner">
+         <a href="images/works/cweems7.jpg" class="thumbnail" title="La. 5" data-gallery>
+             <img src="images/works/cweems7.jpg" alt="image" width="110" height="90">
+            </a>
+        <div class="titleBox">Carrie Mae Weems</div>
+      </div>
+    </div>  
     
 
-     <!-- /END THE FEATURETTES -->
+ 
+  <!-- /#wrap -->  
+
+           
+
+              
+            
+
+           
+
+           
+          <!-- /END THE GALLERY-->
 
 
       <!-- FOOTER -->
+     
           <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>&copy; 2014 eko design and consulting, inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
           </footer>
-
-    </div><!-- /.container -->
-
+        
+   
+</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -150,6 +352,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="assets/js/docs.min.js"></script>
+
+    <!--Gallery Plugin-->
+    <script type="text/javascript">
+    $(function(){
+      // See if this is a touch device
+      if ('ontouchstart' in window)
+      {
+        // Set the correct body class
+        $('body').removeClass('no-touch').addClass('touch');
+        
+        // Add the touch toggle to show text
+        $('div.boxInner img').click(function(){
+          $(this).closest('.boxInner').toggleClass('touchFocus');
+        });
+      }
+    });
+  </script>
+  
+
+
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>

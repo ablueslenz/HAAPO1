@@ -1,0 +1,351 @@
+﻿[
+  {
+    "LNAME":"Ball",
+    "FNAME":"James Presley",
+    "BIRTH":"1825",
+    "DEATH":"1901",
+    "SUBJECT":"portraits,death, street",
+    "PROCESS":"daguerreotype,cartes de visites,cabinet cards”,
+    "SEX":"male",
+    "STYLE":"early",
+  },
+
+  {
+    "LNAME":"Battey",
+    "FNAME":"Cornelius M.",
+    "BIRTH":"1873",
+    "DEATH":"1927",
+    "SUBJECT":"landscape,entertainers,photojournalism",
+    "PROCESS":"platinum and silver prints",
+    "SEX":"male",
+    "STYLE":"early",
+  },
+
+  {
+    "LNAME":"Lion",
+    "FNAME":"Jules",
+    "BIRTH":"1810",
+    "DEATH":"1861",
+    "SUBJECT":"portraits,street,death",
+    "PROCESS":"daguerreotype,lithographs,tintypes",
+    "SEX":"male",
+    "STYLE":"early",
+   },     
+
+  {
+    "LNAME":"Scurlock",
+    "FNAME":"Addison",
+    "BIRTH":"1883",
+    "DEATH":"1964",
+    "SUBJECT":"portraits,celebrations,conventions,street,Washington,D.C.",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Van Der Zee",
+    "FNAME":"James",
+    "BIRTH":"1886",
+    "DEATH":"1983",
+    "SUBJECT":"Harlem people,street",
+    "PROCESS":"silver prints, hand tinting",
+    "SEX":"males",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Parks",
+    "FNAME":"Gordon",
+    "BIRTH":"1912",
+    "DEATH":"2006",
+    "SUBJECT":"portraits,street,politics,fashion",
+    "PROCESS":"silver prints, color",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Weems",
+    "FNAME":"Carrie Mae",
+    "BIRTH":"1953",
+    "DEATH":"null",
+    "SUBJECT":"race,sex,gender,family,geographical history",
+    "PROCESS":"general photography, video, installation,narrative",
+    "SEX":"female",
+    "STYLE":"contemporary",
+   },
+
+  {
+    "LNAME":"Willis",
+    "FNAME":"Deborah",
+    "BIRTH":"1948",
+    "DEATH":"null",
+    "SUBJECT":"people,history,installations",
+    "PROCESS":"color,curation",
+    "SEX":"female",
+    "STYLE":"contemporary",
+  },
+
+  {
+    "LNAME":"Matabele",
+    "FNAME":"Emerson",
+    "BIRTH":"1945",
+    "DEATH":"null",
+    "SUBJECT":"travel,landscape,people",
+    "PROCESS":"digital,film",
+    "SEX":"male",
+    "STYLE":"contemporary",
+  },
+
+  {
+    "LNAME":"Washington",
+    "FNAME":"Augustus",
+    "BIRTH":"1820",
+    "DEATH":"null",
+    "SUBJECT":"Portraits",
+    "PROCESS":"daguerreotypes",
+    "SEX":"male",
+    "STYLE":"early",
+  },
+
+  {
+    "LNAME":"Farley",
+    "FNAME":"James",
+    "BIRTH":"1854",
+    "DEATH":"1910",
+    "SUBJECT":"portraits",
+    "PROCESS":"cabinets cards",
+    "SEX":"male",
+    "STYLE":"early", 
+  },
+
+  {
+    "LNAME":"Shepherd",
+    "FNAME":"Harry",
+    "BIRTH":"unknown",
+    "DEATH":"unknown",
+    "SUBJECT":"portraits,Tuskegee Institute (University)",
+    "PROCESS":"albumn prints,cabinets,cartes de visites",
+    "SEX":"male",
+    "STYLE":"early",
+    
+  },
+
+  {
+    "LNAME":"Bedou",
+    "FNAME":"Arthur",
+    "BIRTH":"1882",
+    "DEATH":"1966",
+    "SUBJECT":"portraits,events, local color of Mississippi and Louisiana",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"early",
+  },
+
+  {
+    "LNAME":"Campbell",
+    "FNAME":"James",
+    "BIRTH":"unknown",
+    "DEATH":"unknown",
+    "SUBJECT":"WWI,studio portraits",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",  
+  },
+
+  {
+    "LNAME":"Ganaway",
+    "FNAME":"King",
+    "BIRTH":"1883",
+    "DEATH":"unknown",
+    "SUBJECT":"Chicago architecture, portraits,landscapes",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Allen",
+    "FNAME":"James",
+    "BIRTH":"1907",
+    "DEATH":"1977",
+    "SUBJECT":"portraits",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"DeCarava",
+    "FNAME":"Roy",
+    "BIRTH":"1919",
+    "DEATH":"2009",
+    "SUBJECT":"Harlem, jazz musicians",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Hansen",
+    "FNAME":"Austin",
+    "BIRTH":"1910",
+    "DEATH":"1996",
+    "SUBJECT":"Harlem street scenes, portraits",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Keith",
+    "FNAME":"Dewitt",
+    "BIRTH":"1923",
+    "DEATH":"1971",
+    "SUBJECT":"WWII",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Harleston",
+    "FNAME":"Elise",
+    "BIRTH":"1891",
+    "DEATH":"1970",
+    "SUBJECT":"portraits",
+    "PROCESS":"silver prints",
+    "SEX":"female",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Polk",
+    "FNAME":"P.H.",
+    "BIRTH":"1898",
+    "DEATH":"1984",
+    "SUBJECT":"George Washington Carver,Tuskegee Dignitaries",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Smith",
+    "FNAME":"Marvin",
+    "BIRTH":"1910",
+    "DEATH":"2003",
+    "SUBJECT":"Harlem,portraits of authors,poets,various artists,educators, political figures",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Smith",
+    "FNAME":"Morgan",
+    "BIRTH":"1910",
+    "DEATH":"1993",
+    "SUBJECT":"Harlem,portraits of authors,poets,various artists,educators, political figures",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Harris",
+    "FNAME":"Charles",
+    "BIRTH":"1908",
+    "DEATH":"1998",
+    "SUBJECT":"Pittsburg,photojournalism,people,street, celebrities",
+    "PROCESS":"silver print",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Kelly",
+    "FNAME":"Andrew",
+    "BIRTH":"null",
+    "DEATH":"null",
+    "SUBJECT":"null",
+    "PROCESS":"digital",
+    "SEX":"male",
+    "STYLE":"contemporary",
+  },
+
+  {
+    "LNAME":"Scurlock",
+    "FNAME":"Robert",
+    "BIRTH":"null",
+    "DEATH":"1994",
+    "SUBJECT":"null",
+    "PROCESS":"silver print",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Weems",
+    "FNAME":"Ellie Lee",
+    "BIRTH":"1901",
+    "DEATH":"1983",
+    "SUBJECT":"ceremonies,landscapes,portraits,personalities,Georgia,Florida",
+    "PROCESS":"silver prints",
+    "SEX":"male",
+    "STYLE":"modern",
+  },
+
+  {
+    "LNAME":"Smith",
+    "FNAME":"Beuford",
+    "BIRTH":"1941",
+    "DEATH":"null",
+    "SUBJECT":"street scenes",
+    "PROCESS":"silver print",
+    "SEX":"male",
+    "STYLE":"contemporary",
+  },
+
+  {
+    "LNAME":"Higgins,Jr.",
+    "FNAME":" Chester",
+    "BIRTH":"1946",
+    "DEATH":"null",
+    "SUBJECT":"African Diaspora,peoples, architecture",
+    "PROCESS":"silver print,digital",
+    "SEX":"male",
+    "STYLE":"contemporary",
+  },
+
+  {
+    "LNAME":"Waters",
+    "FNAME":"Eric",
+    "BIRTH":"null",
+    "DEATH":"null",
+    "SUBJECT":"New Orleans local color,jazz musicians",
+    "PROCESS":"digital",
+    "SEX":"male",
+    "STYLE":"contemporary",
+  }
+  {
+    "LNAME":"Willis Thomas",
+    "FNAME":"Hank",
+    "BIRTH":"1976",
+    "DEATH":"null",
+    "SUBJECT":"history,identity,pop-culture",
+    "PROCESS":"digital",
+    "SEX":"male",
+    "STYLE":"contemporary",
+  }
+
+
+
+
+
+
+
+
+
+]
